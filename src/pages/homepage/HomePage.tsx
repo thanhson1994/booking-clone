@@ -11,8 +11,10 @@ import './HomePage.scss'
 const HomePage = () => {
   return (
     <div>
-      <Navbar />
-      <Header />
+      <header>
+        <Navbar />
+        <Header />
+      </header>
       <div className='homeContainer'>
         <Featured />
         <h1 className='homeTitle'>Browse by property type</h1>

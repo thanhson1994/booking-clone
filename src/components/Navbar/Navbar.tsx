@@ -2,15 +2,15 @@ import "./Navbar.scss"
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="navContainer">
-        <span className="logo">lamabooking</span>
+        <span className="logo">Booking.com</span>
         <div className="navItems">
           <button className="navButton">Register</button>
           <button className="navButton">Login</button>
         </div>
       </div>
-    </div>
+    </nav>
   )
 }
 
